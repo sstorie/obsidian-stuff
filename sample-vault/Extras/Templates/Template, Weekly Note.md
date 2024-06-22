@@ -24,9 +24,13 @@ FROM "Timestamps/Meetings" where meeting-date.weekyear = this.start-of-week.week
 SORT date DESC
 ```
 
+%% A comment to prevent this from being included in the PDF export
+
 > [!NOTE]- All Other Meetings
 > ```dataview
 > TABLE summary AS "Summary"
 > FROM "Timestamps/Meetings" where meeting-date.weekyear = this.start-of-week.weekyear and summary-highlight = false
 > SORT date DESC
 > ```
+
+%%
