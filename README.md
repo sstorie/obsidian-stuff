@@ -21,6 +21,11 @@ Here's a listing of the plugins I currently use (in alphabetical order). This is
 | Text Extractor | This is a companion plugin that makes Omnisearch more powerful. | https://github.com/scambier/obsidian-text-extractor |
 | Various Complements | This adds an auto-complete feature when writing like and IDE does when writing code. | https://github.com/tadashi-aikawa/obsidian-various-complements-plugin |
 
+# Scripts to help automate common things for me
+## Zoom AI summaries
+My workplace has embraced AI tools and one I use by default is Zoom's AI companion to summarize the discussions during a meeting and email them to me. By default these come in a nice looking HTML-based format, but I can't just copy-paste this content into a Markdown note. To help I used AI to generate a quick python script to rip through the content and use regex's to convert things to Markdown. That script is [included in this repository](scripts/convert-zoom-ai-summary.py) in case you're interested.
+
+I use a Mac for my daily tasks so I map the execution of this script to a Shortcut that's easy to run on demand.
 
 # Blogs and Resources I found helpful
 These are in no particular order:
